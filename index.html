@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Premium All-in-One | Privacy Policy</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- Google Fonts: modern, clean sans-serif -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+  <!-- Font Awesome 6 (free icons) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: linear-gradient(145deg, #f6f9fc 0%, #eef2f5 100%);
+      font-family: 'Inter', sans-serif;
+      color: #1A2C3E;
+      line-height: 1.5;
+      padding: 2rem 1.5rem;
+    }
+
+    /* main container with glassmorphism soft card */
+    .privacy-container {
+      max-width: 1280px;
+      margin: 0 auto;
+      background: rgba(255, 255, 255, 0.96);
+      backdrop-filter: blur(0px);
+      border-radius: 2.5rem;
+      box-shadow: 0 25px 45px -12px rgba(0, 0, 0, 0.2), 0 4px 12px rgba(0, 0, 0, 0.05);
+      overflow: hidden;
+      transition: all 0.2s ease;
+    }
+
+    /* header section with premium gradient */
+    .policy-header {
+      background: linear-gradient(135deg, #0B2B40 0%, #1A4A5F 50%, #0F3B4F 100%);
+      padding: 2.8rem 2.5rem;
+      position: relative;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    }
+
+    .app-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      background: rgba(255, 255, 255, 0.12);
+      backdrop-filter: blur(4px);
+      padding: 0.5rem 1.2rem;
+      border-radius: 60px;
+      margin-bottom: 1.8rem;
+      font-weight: 500;
+      font-size: 0.9rem;
+      letter-spacing: 0.3px;
+      color: #fff;
+      width: fit-content;
+      border: 1px solid rgba(255, 255, 255, 0.25);
+    }
+
+    .app-badge i {
+      font-size: 1.2rem;
+      color: #FFD966;
+    }
+
+    .policy-header h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      color: white;
+      letter-spacing: -0.02em;
+      line-height: 1.2;
+      margin-bottom: 0.75rem;
+    }
+
+    .policy-header .last-updated {
+      color: rgba(255, 255, 255, 0.8);
+      font-size: 0.9rem;
+      font-weight: 450;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-top: 0.75rem;
+    }
+
+    .policy-header .last-updated i {
+      font-size: 0.85rem;
+    }
+
+    /* body content */
+    .policy-body {
+      padding: 2.5rem 2.5rem 3rem;
+    }
+
+    /* intro card */
+    .intro-card {
+      background: #F0F6FA;
+      border-left: 6px solid #1A6D8C;
+      border-radius: 1.2rem;
+      padding: 1.5rem 2rem;
+      margin-bottom: 2.5rem;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .intro-text p {
+      margin: 0;
+      font-weight: 500;
+      color: #1A2C3E;
+      font-size: 1rem;
+    }
+
+    .intro-text i {
+      color: #1A6D8C;
+      margin-right: 6px;
+    }
+
+    .contact-note {
+      background: white;
+      border: 1px solid #C9DCE8;
+      padding: 0.7rem 1.4rem;
+      border-radius: 60px;
+      font-weight: 600;
+      font-size: 0.85rem;
+      color: #1A4A5F;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.02);
+    }
+
+    /* sections styling */
+    .policy-section {
+      margin-bottom: 2.5rem;
+      scroll-margin-top: 1rem;
+    }
+
+    .policy-section h2 {
+      font-size: 1.65rem;
+      font-weight: 600;
+      color: #0B2B40;
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      border-left: 4px solid #1A6D8C;
+      padding-left: 1rem;
+    }
+
+    .policy-section h2 i {
+      color: #1A6D8C;
+      font-size: 1.5rem;
+      width: 1.8rem;
+    }
+
+    .policy-section p, .policy-section li {
+      color: #2C3F4F;
+      font-size: 1rem;
+      font-weight: 400;
+      margin-bottom: 0.85rem;
+      line-height: 1.6;
+    }
+
+    .policy-section ul, .policy-section ol {
+      margin: 0.5rem 0 1rem 1.8rem;
+    }
+
+    .policy-section li {
+      margin-bottom: 0.4rem;
+    }
+
+    .highlight-box {
+      background: #FEF8E7;
+      border-radius: 1rem;
+      padding: 1.4rem 1.8rem;
+      margin: 1.5rem 0 1rem;
+      border: 1px solid #FFE6B3;
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .highlight-box i {
+      font-size: 2rem;
+      color: #E6A017;
+    }
+
+    .highlight-box strong {
+      color: #9B6A0C;
+    }
+
+    .grid-info {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 1.2rem;
+      margin: 1.2rem 0;
+    }
+
+    .info-card {
+      background: #F9FDFF;
+      border-radius: 1rem;
+      padding: 1rem 1.2rem;
+      border: 1px solid #E2EDF2;
+      transition: all 0.2s;
+    }
+
+    .info-card i {
+      font-size: 1.5rem;
+      color: #1A6D8C;
+      margin-bottom: 0.5rem;
+      display: inline-block;
+    }
+
+    .info-card h4 {
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+      font-size: 1.05rem;
+    }
+
+    hr {
+      margin: 2rem 0 1rem;
+      border: 0;
+      height: 1px;
+      background: linear-gradient(90deg, #C9DCE8, transparent);
+    }
+
+    footer {
+      margin-top: 2rem;
+      padding-top: 1rem;
+      text-align: center;
+      font-size: 0.8rem;
+      color: #6B859C;
+      border-top: 1px solid #E2EDF2;
+    }
+
+    @media (max-width: 680px) {
+      body {
+        padding: 1rem;
+      }
+      .policy-header {
+        padding: 1.8rem 1.5rem;
+      }
+      .policy-header h1 {
+        font-size: 2rem;
+      }
+      .policy-body {
+        padding: 1.8rem 1.5rem;
+      }
+      .policy-section h2 {
+        font-size: 1.4rem;
+      }
+      .intro-card {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+
+    /* smooth scroll */
+    html {
+      scroll-behavior: smooth;
+    }
+
+    .badge-premium {
+      display: inline-block;
+      background: #FFD96620;
+      border-radius: 30px;
+      padding: 0.2rem 0.7rem;
+      font-size: 0.7rem;
+      font-weight: 600;
+      color: #D9A13B;
+      margin-left: 8px;
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
+<div class="privacy-container">
+  <div class="policy-header">
+    <div class="app-badge">
+      <i class="fas fa-crown"></i>
+      <span>PREMIUM ALL-IN-ONE · OFFICIAL POLICY</span>
+      <i class="fas fa-shield-alt"></i>
+    </div>
+    <h1>Privacy Policy <span class="badge-premium">v2.4 · trusted</span></h1>
+    <div class="last-updated">
+      <i class="far fa-calendar-alt"></i> Last updated: April 26, 2026
+      <i class="fas fa-globe" style="margin-left: 12px;"></i> Effective immediately
+    </div>
+    <p style="color: rgba(255,255,240,0.85); margin-top: 1rem; max-width: 85%; font-weight: 400;">
+      Your data security and transparency are our highest priority. Premium All-in-One combines powerful tools with a deep commitment to protecting your personal information.
+    </p>
+  </div>
+
+  <div class="policy-body">
+    <div class="intro-card">
+      <div class="intro-text">
+        <p><i class="fas fa-check-circle"></i> Welcome to <strong>Premium All-in-One</strong> – your ultimate utility & lifestyle suite.</p>
+        <p style="font-size: 0.9rem; margin-top: 6px;">This policy explains how we collect, use, and safeguard your data when you use our app, website, and related services.</p>
+      </div>
+      <div class="contact-note">
+        <i class="fas fa-envelope"></i> Contact us inside the app
+      </div>
+    </div>
+
+    <!-- Section 1: Information Collection -->
+    <div class="policy-section" id="collect">
+      <h2><i class="fas fa-database"></i> 1. Information We Collect</h2>
+      <p>Premium All-in-One operates with a minimal-data philosophy while delivering powerful features. Depending on your usage, we may collect:</p>
+      <div class="grid-info">
+        <div class="info-card"><i class="fas fa-user-circle"></i><h4>Account Data</h4><p>Name, email, profile (when you sign up for cloud sync or premium subscription).</p></div>
+        <div class="info-card"><i class="fas fa-chart-line"></i><h4>Usage Analytics</h4><p>Anonymous feature interactions, crash reports, performance metrics to improve app stability.</p></div>
+        <div class="info-card"><i class="fas fa-microchip"></i><h4>Device Info</h4><p>Device model, OS version, unique identifiers & app version for troubleshooting.</p></div>
+        <div class="info-card"><i class="fas fa-shield-alt"></i><h4>Local Files</h4><p>Files you choose to process (e.g., PDF tools, media converter) stay on-device unless you enable cloud backup.</p></div>
+      </div>
+      <p><i class="fas fa-info-circle" style="color:#1A6D8C;"></i> <strong>No sensitive data</strong> (financial or biometric) is ever collected without explicit consent.</p>
+    </div>
+
+    <!-- Section 2: How we use info -->
+    <div class="policy-section">
+      <h2><i class="fas fa-cogs"></i> 2. How We Use Your Information</h2>
+      <p>We use collected data to provide, improve, and personalize your Premium All-in-One experience. This includes:</p>
+      <ul>
+        <li><i class="fas fa-check" style="color:#1A6D8C; width:18px;"></i> Delivering core features: document editing, media conversion, QR scanner, and storage tools.</li>
+        <li><i class="fas fa-check" style="color:#1A6D8C;"></i> Processing in-app purchases & subscription management via secure payment partners.</li>
+        <li><i class="fas fa-check" style="color:#1A6D8C;"></i> Sending important service notifications, updates, and security alerts (opt-out available).</li>
+        <li><i class="fas fa-check" style="color:#1A6D8C;"></i> Enhancing AI-based recommendations and smart tool suggestions (anonymized).</li>
+      </ul>
+    </div>
+
+    <!-- Section 3: Data storage & security -->
+    <div class="policy-section">
+      <h2><i class="fas fa-lock"></i> 3. Data Security & Storage</h2>
+      <p>Premium All-in-One uses industry-standard encryption (AES-256 for stored data, TLS 1.3 for transmission). Your local content is never uploaded to our servers unless you explicitly choose cloud sync. We employ:</p>
+      <ul>
+        <li>End-to-end encryption for premium cloud backups (optional feature).</li>
+        <li>Regular security audits and penetration tests.</li>
+        <li>Strict access controls and anonymization of analytics.</li>
+      </ul>
+      <div class="highlight-box">
+        <i class="fas fa-user-secret"></i>
+        <div><strong>Your privacy is non-negotiable.</strong> We never sell your personal data to third parties or use it for advertising without consent. All data processing complies with GDPR, CCPA, and international standards.</div>
+      </div>
+    </div>
+
+    <!-- Section 4: Third-party services -->
+    <div class="policy-section">
+      <h2><i class="fas fa-share-alt"></i> 4. Third-Party Services & Integrations</h2>
+      <p>Our app may integrate trusted partners to extend functionality (e.g., cloud storage, translation APIs). These services have their own privacy policies:</p>
+      <ul>
+        <li><strong>Payment processors</strong> – handle billing data only.</li>
+        <li><strong>Crashlytics & analytics</strong> – anonymized app performance data.</li>
+        <li><strong>Maps & location tools</strong> – only if you grant permission for location-based utilities.</li>
+      </ul>
+      <p>We ensure all third parties provide at least equivalent data protection levels.</p>
+    </div>
+
+    <!-- Section 5: Your rights -->
+    <div class="policy-section">
+      <h2><i class="fas fa-gavel"></i> 5. Your Privacy Rights</h2>
+      <p>Depending on your region, you have the right to:</p>
+      <ul>
+        <li><i class="fas fa-eye"></i> Access & request a copy of your personal data.</li>
+        <li><i class="fas fa-trash-alt"></i> Request deletion of your account & associated data.</li>
+        <li><i class="fas fa-download"></i> Data portability (receive structured data).</li>
+        <li><i class="fas fa-ban"></i> Opt-out of non-essential data collection & marketing emails.</li>
+      </ul>
+      <p>To exercise your rights, please contact us through the support section inside the app.</p>
+    </div>
+
+    <!-- Section 6: Children's privacy -->
+    <div class="policy-section">
+      <h2><i class="fas fa-child"></i> 6. Children's Privacy</h2>
+      <p>Premium All-in-One is not directed to children under 13 (or 16 in certain regions). We do not knowingly collect personal information from minors. If you believe a child has provided us with data, please contact us immediately, and we will delete it.</p>
+    </div>
+
+    <!-- Section 7: International transfers -->
+    <div class="policy-section">
+      <h2><i class="fas fa-globe-americas"></i> 7. International Data Transfers</h2>
+      <p>Your information may be processed on servers located worldwide, but we ensure appropriate safeguards (Standard Contractual Clauses) and data protection measures compliant with your local laws.</p>
+    </div>
+
+    <!-- Section 8: Policy updates -->
+    <div class="policy-section">
+      <h2><i class="fas fa-history"></i> 8. Changes to This Privacy Policy</h2>
+      <p>We may update this policy occasionally to reflect feature changes or legal requirements. Any material revisions will be notified via in-app notice. The "Last updated" date at the top indicates the latest version. Continued use of the app after changes constitutes acceptance.</p>
+    </div>
+
+    <!-- Section 9: Contact -->
+    <div class="policy-section">
+      <h2><i class="fas fa-headset"></i> 9. Contact Us</h2>
+      <p>If you have any questions, complaints, or feedback about this Privacy Policy or our data practices, please reach out to us through:</p>
+      <div style="background: #F8FBFD; border-radius: 1rem; padding: 1.2rem; margin-top: 0.8rem;">
+        <p><i class="fas fa-envelope" style="width: 24px;"></i> <strong>In-app support chat</strong> – available 24/7</p>
+        <p><i class="fas fa-question-circle"></i> Help Center inside the app settings</p>
+      </div>
+    </div>
+
+    <!-- Consent reminder -->
+    <hr>
+    <div style="display: flex; justify-content: space-between; flex-wrap: wrap; align-items: center; gap: 1rem;">
+      <div><i class="fas fa-check-double" style="color:#1A6D8C;"></i> By using Premium All-in-One, you acknowledge that you have read and understood this Privacy Policy.</div>
+      <button id="simulateConsent" style="background: #1A6D8C; border: none; color: white; font-weight: 600; padding: 0.6rem 1.4rem; border-radius: 40px; cursor: pointer; font-family: inherit; box-shadow: 0 2px 6px rgba(0,0,0,0.1); transition: 0.2s;"><i class="fas fa-thumbs-up"></i> I understand & accept</button>
+    </div>
+    <footer>
+      <i class="fas fa-shield-heart"></i> Premium All-in-One — one suite, total privacy. <br>This policy applies to all versions (iOS, Android, Web).
+    </footer>
+  </div>
+</div>
+
+<!-- simple interactive feedback (toast message) -->
+<script>
+  (function() {
+    // create a small toast container
+    const toast = document.createElement('div');
+    toast.id = 'customToast';
+    toast.style.position = 'fixed';
+    toast.style.bottom = '25px';
+    toast.style.left = '50%';
+    toast.style.transform = 'translateX(-50%)';
+    toast.style.backgroundColor = '#1F3E48';
+    toast.style.color = '#fff';
+    toast.style.padding = '12px 24px';
+    toast.style.borderRadius = '60px';
+    toast.style.fontFamily = "'Inter', sans-serif";
+    toast.style.fontWeight = '500';
+    toast.style.fontSize = '0.9rem';
+    toast.style.boxShadow = '0 10px 25px -5px rgba(0,0,0,0.2)';
+    toast.style.backdropFilter = 'blur(8px)';
+    toast.style.background = 'rgba(11, 43, 64, 0.95)';
+    toast.style.border = '1px solid rgba(255,215,0,0.3)';
+    toast.style.zIndex = '9999';
+    toast.style.pointerEvents = 'none';
+    toast.style.opacity = '0';
+    toast.style.transition = 'opacity 0.25s ease';
+    toast.style.letterSpacing = '0.2px';
+    document.body.appendChild(toast);
+
+    function showMessage(msg) {
+      toast.textContent = msg;
+      toast.style.background = 'rgba(11, 43, 64, 0.95)';
+      toast.style.border = '1px solid rgba(255,215,0,0.4)';
+      toast.style.opacity = '1';
+      setTimeout(() => {
+        toast.style.opacity = '0';
+      }, 3000);
+    }
+
+    // I understand & accept button
+    const consentBtn = document.getElementById('simulateConsent');
+    if(consentBtn) {
+      consentBtn.addEventListener('click', () => {
+        showMessage('✓ Thanks! Your privacy preferences have been recorded.');
+        const originalText = consentBtn.innerHTML;
+        consentBtn.innerHTML = '<i class="fas fa-check"></i> Accepted!';
+        setTimeout(() => {
+          consentBtn.innerHTML = originalText;
+        }, 2000);
+      });
+    }
+  })();
+</script>
+</body>
+</html>
